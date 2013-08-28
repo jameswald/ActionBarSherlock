@@ -7,7 +7,7 @@
   <packaging>apklib</packaging>
 
   <parent>
-    <groupId>com.actionbarsherlock</groupId>
+    <groupId>com.github.jameswald.actionbarsherlock</groupId>
     <artifactId>parent</artifactId>
     <version>4.4.0</version>
     <relativePath>../pom.xml</relativePath>
@@ -15,7 +15,7 @@
 
   <dependencies>
     <dependency>
-      <groupId>com.actionbarsherlock</groupId>
+      <groupId>com.github.jameswald.actionbarsherlock</groupId>
       <artifactId>actionbarsherlock</artifactId>
       <version>${project.version}</version>
       <type>apklib</type>

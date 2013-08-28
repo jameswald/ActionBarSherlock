@@ -9,7 +9,7 @@ buildscript {
 }
 
 allprojects {
-  group = 'com.actionbarsherlock'
+  group = 'com.github.jameswald.actionbarsherlock'
   version = '4.4.0'
 
   repositories {

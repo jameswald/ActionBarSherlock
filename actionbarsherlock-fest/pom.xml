@@ -6,7 +6,7 @@
   <name>ActionBarSherlock FEST Assertions</name>
 
   <parent>
-    <groupId>com.actionbarsherlock</groupId>
+    <groupId>com.github.jameswald.actionbarsherlock</groupId>
     <artifactId>parent</artifactId>
     <version>4.4.0</version>
     <relativePath>../pom.xml</relativePath>
@@ -24,7 +24,7 @@
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>com.actionbarsherlock</groupId>
+      <groupId>com.github.jameswald.actionbarsherlock</groupId>
       <artifactId>actionbarsherlock</artifactId>
       <version>${project.version}</version>
       <type>jar</type>
