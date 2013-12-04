@@ -41,8 +41,12 @@ public class SherlockActionBarDrawerToggleDelegate implements ActionBarDrawerTog
 
     @Override
     public Drawable getThemeUpIndicator() {
+        return mActivity.getResources().getDrawable(getThemeUpIndicatorResId());
+    }
+
+    public int getThemeUpIndicatorResId() {
         final TypedArray a = mActivity.obtainStyledAttributes(THEME_ATTRS);
-        final Drawable result = a.getDrawable(0);
+        final int result = a.getResourceId(0, 0);
         a.recycle();
         return result;
     }
